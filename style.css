@@ -1,0 +1,221 @@
+*{
+    padding:0px;
+    margin:0;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+  body{
+    font-family: 'Rubik Moonrocks', cursive;;
+  }
+  .container{
+    background-color:gray;
+    width: 100vw;
+    height: 330vh;
+  }
+  
+  .div1{
+    background-color: rgba(11, 184, 132, 0.875);  
+    width: 90vw;
+    height: 90vh;
+  
+    border : 3px solid rgb(250, 249, 249);
+    text-align: center;
+    font-size: 3em;
+    align-items: center;
+  
+  }
+  .div2{
+    background-color:rgba(77, 3, 73, 0.749);
+    width: 90vw;
+    height: 90vh;
+    margin: 3px;
+    border: 3px solid rgb(252, 241, 241);
+    align-items: center;
+  
+  
+  
+  }
+  .div3{
+    background-color:rgb(185, 182, 6);
+    width: 90vw;
+    height: 90vh;
+    margin: 3px;
+    border : 3px solid rgb(244, 240, 240);
+    align-items: center;
+  
+  
+  }
+  #titleImage{
+  
+  
+    
+    width: 90vw;
+    height: 60vh;
+    margin: 3px;
+    border: 3px solid white;
+    align-items: center;
+    padding: 2px;
+  
+  }
+  #favFoodimage1{
+    align-content: center;
+    margin-top: 40px;
+    width: 60vw;
+    height: 60vh;
+    border: 3px solid white;
+    align-items: center;
+    padding: 8px;
+    border-radius: 9px;
+  }
+  #favFoodimage2{
+    margin-top: 40px;
+    width: 60vw;
+    height: 60vh;
+    border: 3px solid white;
+    align-items: center;
+    
+    align-content: center;
+    padding: 8px;
+  
+  }
+  #favFoodimage3{
+    margin-top: 40px;
+    width: 60vw;
+    height: 60vh;
+    border: 3px solid white;
+  
+    align-content: center;
+    align-items: center;
+    padding: 8px;
+  }
+  #titleName{
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 160px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: rgb(247, 245, 245);
+  }
+  .div0 h1 {
+    -moz-animation: marquee 3s linear ;
+    -webkit-animation: marquee 3s linear ;
+    animation: marquee 3s linear ;
+  }
+  
+  @-moz-keyframes marquee {
+    0% {
+      transform: translateY(-60%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes marquee {
+    0% {
+      transform: translateY(-60%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  @keyframes marquee {
+    0% {
+      -moz-transform: translateY(-60%);
+      -webkit-transform: translateY(-60%);
+      transform: translateY(-60%)
+    }
+    100% {
+      -moz-transform: translateY(0%);
+      -webkit-transform: translateY(0%);
+      transform: translateY(0%);
+    }
+  }
+  
+  .n2{
+    position: absolute;
+  margin-left: 660px;
+  margin-top: 300px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: antiquewhite
+  
+  
+  }
+  #favFood2{
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+  
+  }
+  #favFood3{
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+  
+  }
+  #favFood1{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+    
+  
+  }
+  #foodDescription1{
+    font-size: medium;
+    margin-top: 70px;
+    text-align: center;
+    color: aliceblue;
+  
+  }
+  #foodDescription2{
+    font-size: medium;
+    margin-top: 70px;
+    text-align: center;
+    color: aliceblue;
+  }
+  #foodDescription3{
+    font-size: medium;
+    text-align: center;
+    color: aliceblue;
+  }
+  #linkpi{
+    position: absolute;
+    font-size: medium;
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(1, 2, 2);
+    justify-content: center;
+  }
+  #linkbri{
+    position: absolute;
+    font-size: medium;
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    margin-right: 50px;
+    
+  }
+  #linkts{
+    position: absolute;
+    font-size: medium;
+    color: black;
+    margin-top: 115px;
+    align-content: flex-end;
+  
+  }
